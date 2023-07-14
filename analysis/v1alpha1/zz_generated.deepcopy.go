@@ -6,7 +6,7 @@
 package v1alpha1
 
 import (
-	autoscalingv1alpha1 "github.com/gocrane/api/autoscaling/v1alpha1"
+	autoscalingv1alpha1 "github.com/erikwoo/gocrane-api/autoscaling/v1alpha1"
 	v2beta2 "k8s.io/api/autoscaling/v2beta2"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -1,7 +1,7 @@
 package v1alpha1
 
 import (
-	"github.com/gocrane/api/analysis"
+	"github.com/erikwoo/gocrane-api/analysis"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

@@ -5,12 +5,12 @@ package versioned
 import (
 	"fmt"
 
-	analysisv1alpha1 "github.com/gocrane/api/pkg/generated/clientset/versioned/typed/analysis/v1alpha1"
-	autoscalingv1alpha1 "github.com/gocrane/api/pkg/generated/clientset/versioned/typed/autoscaling/v1alpha1"
-	co2ev1alpha1 "github.com/gocrane/api/pkg/generated/clientset/versioned/typed/co2e/v1alpha1"
-	ensurancev1alpha1 "github.com/gocrane/api/pkg/generated/clientset/versioned/typed/ensurance/v1alpha1"
-	predictionv1alpha1 "github.com/gocrane/api/pkg/generated/clientset/versioned/typed/prediction/v1alpha1"
-	topologyv1alpha1 "github.com/gocrane/api/pkg/generated/clientset/versioned/typed/topology/v1alpha1"
+	analysisv1alpha1 "github.com/erikwoo/gocrane-api/pkg/generated/clientset/versioned/typed/analysis/v1alpha1"
+	autoscalingv1alpha1 "github.com/erikwoo/gocrane-api/pkg/generated/clientset/versioned/typed/autoscaling/v1alpha1"
+	co2ev1alpha1 "github.com/erikwoo/gocrane-api/pkg/generated/clientset/versioned/typed/co2e/v1alpha1"
+	ensurancev1alpha1 "github.com/erikwoo/gocrane-api/pkg/generated/clientset/versioned/typed/ensurance/v1alpha1"
+	predictionv1alpha1 "github.com/erikwoo/gocrane-api/pkg/generated/clientset/versioned/typed/prediction/v1alpha1"
+	topologyv1alpha1 "github.com/erikwoo/gocrane-api/pkg/generated/clientset/versioned/typed/topology/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

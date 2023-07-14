@@ -17,21 +17,21 @@ CODEGEN_PKG=${CODEGEN_PKG:-$(
 )}
 
 bash "${CODEGEN_PKG}"/generate-groups.sh "client,lister,informer" \
-  github.com/gocrane/api/pkg/generated \
-  github.com/gocrane/api \
+  github.com/erikwoo/gocrane-api/pkg/generated \
+  github.com/erikwoo/gocrane-api \
   "autoscaling:v1alpha1 ensurance:v1alpha1 prediction:v1alpha1 analysis:v1alpha1 topology:v1alpha1 co2e:v1alpha1" \
   --output-base "$SCRIPT_ROOT" \
   --go-header-file "${SCRIPT_ROOT}/hack/boilerplate/boilerplate.go.txt" \
   --plural-exceptions "Analytics:Analytics"
 
 bash "${CODEGEN_PKG}"/generate-groups.sh "deepcopy" \
-  github.com/gocrane/api/pkg/generated \
-  github.com/gocrane/api \
+  github.com/erikwoo/gocrane-api/pkg/generated \
+  github.com/erikwoo/gocrane-api \
   "autoscaling:v1alpha1 ensurance:v1alpha1 prediction:v1alpha1 analysis:v1alpha1 topology:v1alpha1 co2e:v1alpha1" \
   --output-base "$SCRIPT_ROOT" \
   --go-header-file "${SCRIPT_ROOT}/hack/boilerplate/boilerplate.go.txt"
 
-cp -r $SCRIPT_ROOT/github.com/gocrane/api/* $SCRIPT_ROOT
+cp -r $SCRIPT_ROOT/github.com/erikwoo/gocrane-api/* $SCRIPT_ROOT
 
 rm -rf $SCRIPT_ROOT/github.com
 
