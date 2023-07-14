@@ -1,4 +1,4 @@
-module github.com/gocrane/api
+module github.com/erikwoo/gocrane-api
 
 go 1.16
 
