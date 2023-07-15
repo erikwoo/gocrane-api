@@ -1,11 +1,11 @@
 package v1alpha1
 
 import (
-	autoscalingv2 "k8s.io/api/autoscaling/v2beta2"
+	autoscalingv2 "k8s.io/api/autoscaling/v2"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	autoscalingapi "github.com/gocrane/api/autoscaling/v1alpha1"
+	autoscalingapi "github.com/erikwoo/gocrane-api/autoscaling/v1alpha1"
 )
 
 type AnalysisType string

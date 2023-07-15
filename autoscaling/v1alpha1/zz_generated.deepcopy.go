@@ -6,8 +6,8 @@
 package v1alpha1
 
 import (
-	predictionv1alpha1 "github.com/gocrane/api/prediction/v1alpha1"
-	v2beta2 "k8s.io/api/autoscaling/v2beta2"
+	predictionv1alpha1 "github.com/erikwoo/gocrane-api/prediction/v1alpha1"
+	v2beta2 "k8s.io/api/autoscaling/v2"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
